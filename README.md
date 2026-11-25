@@ -1,7 +1,7 @@
 # Machine Learning Assignment 2
 ## Classification Models and Performance Evaluation
 
-**BITS ID** 2026ct05097
+**BITS ID:** 2026ct05097
 **Course:** M.Tech Artificial Intelligence and Machine Learning  
 **Dataset:** Adult Income Classification Dataset  
 **Repository:** BITS ML Assignments
