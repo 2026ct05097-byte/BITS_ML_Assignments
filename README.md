@@ -1,7 +1,7 @@
 # Machine Learning Assignment 2
 ## Classification Models and Performance Evaluation
 
-**BITS ID:** 2026ct05097
+**BITS ID:** 2026ct05097  
 **Course:** M.Tech Artificial Intelligence and Machine Learning  
 **Dataset:** Adult Income Classification Dataset  
 **Repository:** BITS ML Assignments
@@ -136,5 +136,22 @@ The following six metrics were used:
 - Performed better than the Decision Tree in overall evaluation.
 
 ### Gaussian Naive Bayes
-- Achieved the highest recall of 0.9242.
-- Obtained comparatively low precision of 0.377
+- Achieved the highest recall of 0.9242, identifying most of the positive-income cases.
+- Obtained comparatively low precision of 0.3777, indicating a comparatively high number of false positives.
+- Its accuracy and F1 score were the lowest among the five models.
+
+### Random Forest
+- Achieved the highest accuracy of 0.8519, F1 score of 0.6712 and MCC of 0.5781.
+- Delivered the strongest overall balance across the evaluation metrics.
+- Its AUC score of 0.8995 was close to Logistic Regression's highest AUC of 0.9020.
+
+### Overall Winner
+Random Forest was the overall best-performing model on this test set based on its highest accuracy, F1 score and MCC. Logistic Regression achieved the highest AUC and precision, while Gaussian Naive Bayes achieved the highest recall. The preferred model therefore depends on whether balanced performance, ranking quality, precision or recall is the main priority.
+
+## 7. Repository and Execution
+
+**GitHub Repository:** https://github.com/2026ct05097-byte/BITS_ML_Assignments
+
+The repository contains the Jupyter notebook, requirements file, README, held-out test data, model predictions, model probabilities, evaluation metrics and an archive of the five trained model files.
+
+To reproduce the experiment, install the packages listed in `requirements.txt`, open `2026ct05097_Assignment_2.ipynb` in Jupyter Notebook or JupyterLab, and run the notebook cells in sequence. The notebook can be executed in any compatible Jupyter environment with the required dependencies installed.
